@@ -1,0 +1,46 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-footer {
+    margin-top: auto;
+}
+
+.about-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px auto 0 auto;
+    width: 60%;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container {
+        margin-top: 50px;
+    }
+
+}

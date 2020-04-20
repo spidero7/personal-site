@@ -1,0 +1,82 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #F7C974;
+    margin: 0;
+    background-color: #35409E;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 3.5em;
+    margin-bottom: auto;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+    color: #F7C974;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.main-nav a:hover {
+    color: rgb(212, 188, 144);
+}
+
+.target {
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    padding-top: .35em;
+    padding-bottom: .35em;
+}
+
+.container {
+    padding: 1em 0;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.mian-footer {
+    
+}

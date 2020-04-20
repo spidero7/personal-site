@@ -1,0 +1,148 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    color: #F7C974;
+    margin: 0;
+    background-color: #29326B;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 3.5em;
+    margin-bottom: auto;
+
+}
+
+h4 {
+    text-transform: uppercase;
+    align-self: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F7C974;
+    font-weight: 500;
+    font-size: 1.2em;
+
+}
+
+p {
+    margin-top: 0;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 5px 5px;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+
+a:hover {
+    color: rgb(212, 188, 144);
+}
+
+.target {
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 10px;;
+}
+
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+    padding-top: .35em;
+    padding-bottom: .35em;
+}
+
+.container {
+    padding: 1em 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-footer {
+    padding: 1em 0;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.about-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact {
+    dis
+}
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+@media (min-width: 769px) {
+    .main-header,
+    .main-footer,
+    .container  {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .position {
+        font-size: 4.5em;
+    }
+
+    .target {
+        font-size: 1.4em;
+    }
+
+}
+
+@media (min-width: 1025px) {
+    .container{
+        width: 60%;
+        max-width: 810px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .main-header {
+        width: 70%;
+    }
+}

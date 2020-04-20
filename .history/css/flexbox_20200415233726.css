@@ -1,0 +1,27 @@
+/* ================================= 
+  Base Styles
+==================================== */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-footer {
+    margin-top: auto;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+    .main-nav {
+        display: flex;
+    }
+
+    .main-header {
+
+    }
+}

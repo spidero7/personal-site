@@ -1,0 +1,39 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Domine', serif;
+    line-height: 1.6;
+    color: #F7C974;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.main-nav a {
+    text-align: center;
+    display: block;
+}
